@@ -1,0 +1,2 @@
+v1	named	intermediary
+METHOD	nopglint/mixin/PotionItemMixin	(Lnet/minecraft/item/ItemStack;)Z	hasGlint	method_7886

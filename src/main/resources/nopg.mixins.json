@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "nopglint.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "PotionItemMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "nopg",
+  "version": "1.16.2_1",
+  "name": "nopglint",
+  "description": "No ugly potion glint",
+  "authors": [
+    "akio"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "GNU GENERAL PUBLIC LICENSE",
+  "icon": "assets/nopg/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "nopglint.PGlintInitializer"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "nopg.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}
